@@ -44,17 +44,6 @@ The results: Using a bulleted list, describe the accuracy score, the precision s
 
 A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
-Overview of the Analysis:
-
-•	The purpose of this analysis is to build a model that can identify the creditworthiness of borrowers.
-
-•	Dependent variable (y value) in this analysis was the "loan status" indicating if a loan is healthy or at risk.
-
-•	Independent Variables (x values) were loan size, interest rate, borrower income, debt to income ratio, number of accounts and derogatory marks.
-
-•	In this analysis, we first split our data to training and test sets. Then, define our dependent and independent variables. Next, we create logistic regression model and fit our original data to this model. Trained model is used to make predictions. Lastly, we evaluate the model`s performance.
-
-•	Two different Logistic Regression models were created by using the original data set and randomly over resampled data set (to get rid of the imbalances). In the end, their results -which was gathered with scikit-learn library- were compared.
 
 Summary:
 
